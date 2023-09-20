@@ -3,6 +3,7 @@ import json
 from bs4 import BeautifulSoup
 import schedule
 import time
+import subprocess
 
 def scrape_and_save_data(url, output_file):
     # Send an HTTP GET request to the URL
@@ -42,15 +43,37 @@ def scrape_and_save_data(url, output_file):
             # Append the dictionary to the list
             data.append(item_info)
 
-        # Save the scraped data to a JSON file
-        with open(output_file, "w", encoding="utf-8") as json_file:
-            json.dump(data, json_file, ensure_ascii=False, indent=4)
+        # Check if the data has changed compared to the existing JSON file
+        update_needed = False
+        try:
+            with open(output_file, "r", encoding="utf-8") as json_file:
+                existing_data = json.load(json_file)
 
-        print(f"Data scraped and saved to {output_file}")
+            if data != existing_data:
+                update_needed = True
+
+        except FileNotFoundError:
+            update_needed = True
+
+        if update_needed:
+            # Save the scraped data to the JSON file
+            with open(output_file, "w", encoding="utf-8") as json_file:
+                json.dump(data, json_file, ensure_ascii=False, indent=4)
+
+            print(f"Data scraped and saved to {output_file}")
+
+            # Commit and push changes to Git
+            commit_message = f"Update made in {output_file}"
+            subprocess.run(["git", "add", output_file])
+            subprocess.run(["git", "commit", output_file, "-m", commit_message])
+            subprocess.run(["git", "push"])
+        else:
+            print("No changes had been made")
+
     else:
         print(f"Failed to retrieve the webpage for {url}")
 
-# Define URLs and output file names
+# Define URLs and output file names as strings
 vegetables_url = "https://market.todaypricerates.com/Tamil-Nadu-vegetables-price"
 fruits_url = "https://market.todaypricerates.com/Tamil-Nadu-fruits-price"
 vegetables_output_file = "vegetable_data.json"
