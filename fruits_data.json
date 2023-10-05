@@ -2,58 +2,58 @@
     {
         "Name": "Apple washington",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 200",
-        "Retail Price": "₹ 230 - 254",
-        "Shopping Mall": "₹ 240 - 330"
+        "Market Price": "₹ 220",
+        "Retail Price": "₹ 253 - 279",
+        "Shopping Mall": "₹ 264 - 363"
     },
     {
         "Name": "Apple Simla",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 95",
-        "Retail Price": "₹ 109 - 121",
-        "Shopping Mall": "₹ 114 - 157"
+        "Market Price": "₹ 115",
+        "Retail Price": "₹ 132 - 146",
+        "Shopping Mall": "₹ 138 - 190"
     },
     {
         "Name": "Apple Green ( Smith )",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 220",
-        "Retail Price": "₹ 253 - 279",
-        "Shopping Mall": "₹ 264 - 363"
+        "Market Price": "₹ 230",
+        "Retail Price": "₹ 265 - 292",
+        "Shopping Mall": "₹ 276 - 380"
     },
     {
         "Name": "Apricot",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 150",
-        "Retail Price": "₹ 173 - 191",
-        "Shopping Mall": "₹ 180 - 248"
+        "Market Price": "₹ 160",
+        "Retail Price": "₹ 184 - 203",
+        "Shopping Mall": "₹ 192 - 264"
     },
     {
         "Name": "Avocado (Butterfruit)",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 220",
-        "Retail Price": "₹ 253 - 279",
-        "Shopping Mall": "₹ 264 - 363"
+        "Market Price": "₹ 190",
+        "Retail Price": "₹ 219 - 241",
+        "Shopping Mall": "₹ 228 - 314"
     },
     {
         "Name": "Banana Morris Kg",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 22",
-        "Retail Price": "₹ 25 - 28",
-        "Shopping Mall": "₹ 26 - 36"
+        "Market Price": "₹ 21",
+        "Retail Price": "₹ 24 - 27",
+        "Shopping Mall": "₹ 25 - 35"
     },
     {
         "Name": "Banana Regular",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 44",
-        "Retail Price": "₹ 51 - 56",
-        "Shopping Mall": "₹ 53 - 73"
+        "Market Price": "₹ 46",
+        "Retail Price": "₹ 53 - 58",
+        "Shopping Mall": "₹ 55 - 76"
     },
     {
         "Name": "Banana other",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 45",
-        "Retail Price": "₹ 52 - 57",
-        "Shopping Mall": "₹ 54 - 74"
+        "Market Price": "₹ 43",
+        "Retail Price": "₹ 49 - 55",
+        "Shopping Mall": "₹ 52 - 71"
     },
     {
         "Name": "Cantaloupe (Musk melon)",
@@ -65,16 +65,16 @@
     {
         "Name": "Custard apple",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 65",
-        "Retail Price": "₹ 75 - 83",
-        "Shopping Mall": "₹ 78 - 107"
+        "Market Price": "₹ 55",
+        "Retail Price": "₹ 63 - 70",
+        "Shopping Mall": "₹ 66 - 91"
     },
     {
         "Name": "Gooseberry, Indian",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 125",
-        "Retail Price": "₹ 144 - 159",
-        "Shopping Mall": "₹ 150 - 206"
+        "Market Price": "₹ 105",
+        "Retail Price": "₹ 121 - 133",
+        "Shopping Mall": "₹ 126 - 173"
     },
     {
         "Name": "Grapes ( Black )",
@@ -86,72 +86,72 @@
     {
         "Name": "Grapes ( Green )",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 89",
-        "Retail Price": "₹ 102 - 113",
-        "Shopping Mall": "₹ 107 - 147"
+        "Market Price": "₹ 78",
+        "Retail Price": "₹ 90 - 99",
+        "Shopping Mall": "₹ 94 - 129"
     },
     {
         "Name": "Guava",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 49",
-        "Retail Price": "₹ 56 - 62",
-        "Shopping Mall": "₹ 59 - 81"
+        "Market Price": "₹ 45",
+        "Retail Price": "₹ 52 - 57",
+        "Shopping Mall": "₹ 54 - 74"
     },
     {
         "Name": "Jackfruit",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 105",
-        "Retail Price": "₹ 121 - 133",
-        "Shopping Mall": "₹ 126 - 173"
+        "Market Price": "₹ 115",
+        "Retail Price": "₹ 132 - 146",
+        "Shopping Mall": "₹ 138 - 190"
     },
     {
         "Name": "Lychee",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 250",
-        "Retail Price": "₹ 288 - 318",
-        "Shopping Mall": "₹ 300 - 413"
+        "Market Price": "₹ 240",
+        "Retail Price": "₹ 276 - 305",
+        "Shopping Mall": "₹ 288 - 396"
     },
     {
         "Name": "Mango, ripe",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 80",
-        "Retail Price": "₹ 92 - 102",
-        "Shopping Mall": "₹ 96 - 132"
+        "Market Price": "₹ 92",
+        "Retail Price": "₹ 106 - 117",
+        "Shopping Mall": "₹ 110 - 152"
     },
     {
         "Name": "Mango, unripe",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 60",
-        "Retail Price": "₹ 69 - 76",
-        "Shopping Mall": "₹ 72 - 99"
+        "Market Price": "₹ 57",
+        "Retail Price": "₹ 66 - 72",
+        "Shopping Mall": "₹ 68 - 94"
     },
     {
         "Name": "Orange",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 58",
-        "Retail Price": "₹ 67 - 74",
-        "Shopping Mall": "₹ 70 - 96"
+        "Market Price": "₹ 53",
+        "Retail Price": "₹ 61 - 67",
+        "Shopping Mall": "₹ 64 - 87"
     },
     {
         "Name": "Orange Imported",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 67",
-        "Retail Price": "₹ 77 - 85",
-        "Shopping Mall": "₹ 80 - 111"
+        "Market Price": "₹ 61",
+        "Retail Price": "₹ 70 - 77",
+        "Shopping Mall": "₹ 73 - 101"
     },
     {
         "Name": "Papaya",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 32",
-        "Retail Price": "₹ 37 - 41",
-        "Shopping Mall": "₹ 38 - 53"
+        "Market Price": "₹ 36",
+        "Retail Price": "₹ 41 - 46",
+        "Shopping Mall": "₹ 43 - 59"
     },
     {
         "Name": "Pears",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 109",
-        "Retail Price": "₹ 125 - 138",
-        "Shopping Mall": "₹ 131 - 180"
+        "Market Price": "₹ 94",
+        "Retail Price": "₹ 108 - 119",
+        "Shopping Mall": "₹ 113 - 155"
     },
     {
         "Name": "Pineapple",
@@ -163,36 +163,36 @@
     {
         "Name": "Pomegranate",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 105",
-        "Retail Price": "₹ 121 - 133",
-        "Shopping Mall": "₹ 126 - 173"
+        "Market Price": "₹ 115",
+        "Retail Price": "₹ 132 - 146",
+        "Shopping Mall": "₹ 138 - 190"
     },
     {
         "Name": "Sapota (Sapodilla)",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 45",
-        "Retail Price": "₹ 52 - 57",
-        "Shopping Mall": "₹ 54 - 74"
+        "Market Price": "₹ 46",
+        "Retail Price": "₹ 53 - 58",
+        "Shopping Mall": "₹ 55 - 76"
     },
     {
         "Name": "Sugar cane",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 29",
-        "Retail Price": "₹ 33 - 37",
-        "Shopping Mall": "₹ 35 - 48"
+        "Market Price": "₹ 20",
+        "Retail Price": "₹ 23 - 25",
+        "Shopping Mall": "₹ 24 - 33"
     },
     {
         "Name": "Sweet lime",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 43",
-        "Retail Price": "₹ 49 - 55",
-        "Shopping Mall": "₹ 52 - 71"
+        "Market Price": "₹ 41",
+        "Retail Price": "₹ 47 - 52",
+        "Shopping Mall": "₹ 49 - 68"
     },
     {
         "Name": "Watermelon",
         "Unit": "Kg / Pcs",
-        "Market Price": "₹ 18",
-        "Retail Price": "₹ 21 - 23",
-        "Shopping Mall": "₹ 22 - 30"
+        "Market Price": "₹ 21",
+        "Retail Price": "₹ 24 - 27",
+        "Shopping Mall": "₹ 25 - 35"
     }
 ]
