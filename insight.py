@@ -49,24 +49,43 @@ def scrape_and_save_data(url, output_file):
             with open(output_file, "r", encoding="utf-8") as json_file:
                 existing_data = json.load(json_file)
 
-            if data != existing_data:
-                update_needed = True
+            for item_info in data:
+                existing_item = next(
+                    (item for item in existing_data if item["Name"] == item_info["Name"]),
+                    None,
+                )
+                if existing_item:
+                    if existing_item["Market Price"] != item_info["Market Price"]:
+                        update_needed = True
+                        existing_item["Market Price"] = item_info["Market Price"]
 
         except FileNotFoundError:
             update_needed = True
 
         if update_needed:
-            # Save the scraped data to the JSON file
+            # Save the updated data to the JSON file
             with open(output_file, "w", encoding="utf-8") as json_file:
-                json.dump(data, json_file, ensure_ascii=False, indent=4)
+                json.dump(existing_data, json_file, ensure_ascii=False, indent=4)
 
-            print(f"Data scraped and saved to {output_file}")
+            print(f"Data updated and saved to {output_file}")
 
             # Commit and push changes to Git
             commit_message = f"Update made in {output_file}"
-            subprocess.run(["git", "add", output_file])
             subprocess.run(["git", "commit", output_file, "-m", commit_message])
             subprocess.run(["git", "push"])
+
+            # Print the updates made
+            for item_info in data:
+                existing_item = next(
+                    (item for item in existing_data if item["Name"] == item_info["Name"]),
+                    None,
+                )
+                if existing_item:
+                    if existing_item["Market Price"] != item_info["Market Price"]:
+                        print(
+                            f"Updation done in {output_file} in {item_info['Name']} in Market Price"
+                        )
+
         else:
             print("No changes had been made")
 
